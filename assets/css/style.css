@@ -21,7 +21,14 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    text-transform: uppercase;
+}
+
+h1, h2 {
+    text-transform: uppercase;    
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .section {
@@ -49,6 +56,41 @@ h1, h2, h3 {
     font-family: var(--secondary-font);
 }
 
+/* Services Section Styles */
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    #services .card-body {
+        min-height: 200px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #services .card-body {
+        min-height: 217px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #services .card-body {
+        min-height: 194px;
+    }
+}
 /* grid visualisation CSS for testing */
 
 /* .container,
