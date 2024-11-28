@@ -44,6 +44,32 @@ h2 {
     border: none;
 }
 
+/* Button Styling */ 
+
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+    padding: 7 25px;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 2px solid var(--highlight-color);
+    color: var(--highlight-color);
+    padding: 7px 25px;
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /* Navbar */
 
 #navbar {
@@ -72,29 +98,15 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-@media screen and (min-width: 768px) {
-    #services .card-body {
-        min-height: 200px;
-    }
+/* Events Styling Section */
+
+#events .student-discount {
+    background-color: #416a8e;
+    color: white;
+    padding: 7px 25px;
 }
 
-@media screen and (min-width: 992px) {
-    #services .card-body {
-        min-height: auto;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    #services .card-body {
-        min-height: 217px;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    #services .card-body {
-        min-height: 194px;
-    }
-}
+/* Game Booking Form */
 
 /* Footer Styling Section*/
 
@@ -130,6 +142,30 @@ h2 {
 
 #contact .table-dark * {
     background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+    #services .card-body {
+        min-height: 200px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #services .card-body {
+        min-height: 217px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #services .card-body {
+        min-height: 194px;
+    }
 }
 
 /* grid visualisation CSS for testing */
